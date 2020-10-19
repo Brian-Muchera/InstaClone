@@ -25,7 +25,7 @@ Behaviour 	Input 	Output
 
  # Clone the Repo
 
-Run the following command on the terminal: git clone https://github.com/BRian-Muchera/InstaClone.git 
+Run the following command on the terminal: git clone https://github.com/Brian-Muchera/InstaClone.git 
     && cd Instagram
 # Activate virtual environment
 
@@ -76,7 +76,7 @@ Comment and the update profile functionality does not work
 
  # Further help
 
-Contact me at salemowino18@gmail.com if you run into any issue or have any questions
+Contact me at mucherabrian2@gmail.com if you run into any issue or have any questions
 License
 
 Copyright (c) 2020 Brian-Muchera
