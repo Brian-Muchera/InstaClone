@@ -1,7 +1,7 @@
- ## InstaClone
+ # InstaClone
  
  
- # Description
+ ## Description
 
 This is a simple web clone of the instagram website. A user can create an account and sign into it. A user can then upload images, and follow other users. A user can view photos uploaded by other users in the home page of app.
 
