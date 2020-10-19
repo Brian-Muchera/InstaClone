@@ -1,1 +1,1 @@
-web: gunicorn snapgram.wsgi --log-file -
+web: gunicorn Snapgram.wsgi --log-file -
