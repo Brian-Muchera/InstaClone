@@ -38,12 +38,10 @@
   
   .instaicon {
     display: inline-block;
-    /*background-image: url(/static/images/96319a506a03.png);*/
     padding: 0px;
   }
   .instaglyph {
     display: inline-block;
-   /* background-image: url(/static/images/868a059b8fc8.png);*/
     margin: 8px;
   }
   .modal-body a {
@@ -97,7 +95,15 @@
     color: #d1d7e0;
     font-family: "Marko One", serif;
   }
-  
+  .user {
+    color: black;
+  }
+  .user a:hover {
+    text-decoration: none;
+  }
+  .col-form-label {
+    font-size: 14;
+  }
   .account-img {
     height: 165px;
     width: 165px;
@@ -125,15 +131,6 @@
   .card-body {
     margin: 0px;
     padding: 0px;
-  }
-  .user {
-    color: black;
-  }
-  .user a:hover {
-    text-decoration: none;
-  }
-  .col-form-label {
-    font-size: 14;
   }
   #overlay {
     display: none;
