@@ -5,8 +5,11 @@
 
 This is a simple web clone of the instagram website. A user can create an account and sign into it. A user can then upload images, and follow other users. A user can view photos uploaded by other users in the home page of app.
 
+## Live Link
+[Muchera-Brian] (https://brianinsta00.herokuapp.com/)
 
- # BEHAVIOUR DRIVEN DEVELOPMENT(BDD)
+
+ ## (BDD)
 Behaviour 	Input 	Output
 -Navigate to website 
 -Click on a profile &User profile is displayed
@@ -15,25 +18,26 @@ Behaviour 	Input 	Output
   .Click on add a comment link and type your comment 
 -Navigate to search input 	Type in a user profile  	That searched profile is displayed
 
- ## Set Up and Installations
- # Prerequisites
+ ## Prerequisites
 
     Ubuntu Software
     Python3.8
     Postgres
     python virtualenv
 
- # Clone the Repo
+ ## Clone the Repo
 
 Run the following command on the terminal: git clone https://github.com/Brian-Muchera/InstaClone.git 
-    && cd Instagram
-# Activate virtual environment
+    &&
+cd Instagram
+
+## Activate virtual environment
 
     Activate virtual environment using python3.8 as default handler
 
     virtualenv -p /usr/bin/python3.8 venv && source venv/bin/activate
 
- # Install dependancies
+ ## Install dependancies
 
 Install dependancies that will create an environment for the app to run pip3 install -r requirements.txt
 Create the Database
@@ -41,7 +45,7 @@ Create the Database
     psql
     CREATE DATABASE instagram;
 
- # .env file
+ ## .env file
 
 Create .env file and paste paste the following filling where appropriate:
 
@@ -53,20 +57,21 @@ Create .env file and paste paste the following filling where appropriate:
 
 
 
- # Run initial Migration
+ ## Run initial Migration
 
     python3.8 manage.py makemigrations app
     python3.8 manage.py migrate
 
- # Run the app
+ ## Run the app
 
     python3.8 manage.py runserver
 
     Open terminal on localhost:8000
- # Known bugs
+ ## Known bugs
 
-Comment and the update profile functionality does not work
- # Technologies used
+None for now!!
+
+ ## Technologies used
 
 - Python 3.8
 - HTML
@@ -74,7 +79,7 @@ Comment and the update profile functionality does not work
 - Heroku
 - Postgresql
 
- # Further help
+ ## Further help
 
 Contact me at mucherabrian2@gmail.com if you run into any issue or have any questions
 License
